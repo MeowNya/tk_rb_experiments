@@ -11,12 +11,12 @@ label = TkLabel.new(app){
   text "Hello World"
   font "Arial 16"
   fg "red"
-  pack { padx 100; pady 100; side "left" }
+  pack { padx 100; pady 100 }
 }
 
 wdgt = TkButton.new(app) {
   text "Click me!"
-  pack { padx 100; pady 100; side "left" }
+  pack { padx 100; pady 100 }
   command proc{
     text = "Hello World!"
 
@@ -47,7 +47,7 @@ wdgt = TkButton.new(app) {
 
 but = TkButton.new(app) {
   text "Hello, World!"
-  pack { padx 100; pady 100; side "left" }
+  pack { padx 100; pady 100 }
   command proc { puts "Hello World!" }
 }
 
