@@ -23,6 +23,7 @@ btn_click = TkButton.new(app) {
         'icon'    => "info",
         'title'   => "Info",
         'message' => text
-    )}
+    )
+    line_edit1.delete(0, text[-1, 1])}
 }
 Tk.mainloop
