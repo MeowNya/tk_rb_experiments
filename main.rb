@@ -1,7 +1,10 @@
 require 'tk'
 
 app = TkRoot.new {
-  title "Text Mess"}
+  title "Text Mess";
+  padx 100;
+  pady 200;
+ }
 
 
 label = TkLabel.new(app){
